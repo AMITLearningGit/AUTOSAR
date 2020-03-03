@@ -1,0 +1,4 @@
+CAN_MSTR : is a testing example made by tivaware
+CAN_SLAVE : is a testing example made by tivaware
+
+EEPROM: is testing example for EEPROM with AVR using I2C

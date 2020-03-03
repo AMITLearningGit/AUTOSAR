@@ -1,0 +1,15 @@
+.\objects\rgb.o: rgb.c
+.\objects\rgb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rgb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rgb.o: ..\tivaware\inc/hw_types.h
+.\objects\rgb.o: ..\tivaware\inc/hw_memmap.h
+.\objects\rgb.o: ..\tivaware\inc/hw_timer.h
+.\objects\rgb.o: ..\tivaware\inc/hw_ints.h
+.\objects\rgb.o: ..\tivaware\driverlib/sysctl.h
+.\objects\rgb.o: ..\tivaware\driverlib/rom.h
+.\objects\rgb.o: ..\tivaware\driverlib/rom_map.h
+.\objects\rgb.o: ..\tivaware\driverlib/pin_map.h
+.\objects\rgb.o: ..\tivaware\driverlib/timer.h
+.\objects\rgb.o: ..\tivaware\driverlib/gpio.h
+.\objects\rgb.o: ..\tivaware\driverlib/interrupt.h
+.\objects\rgb.o: rgb.h

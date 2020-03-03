@@ -1,0 +1,15 @@
+.\objects\uartstdio.o: ..\tivaware\utils\uartstdio.c
+.\objects\uartstdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\uartstdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uartstdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\uartstdio.o: ..\tivaware\inc/hw_ints.h
+.\objects\uartstdio.o: ..\tivaware\inc/hw_memmap.h
+.\objects\uartstdio.o: ..\tivaware\inc/hw_types.h
+.\objects\uartstdio.o: ..\tivaware\inc/hw_uart.h
+.\objects\uartstdio.o: ..\tivaware\driverlib/debug.h
+.\objects\uartstdio.o: ..\tivaware\driverlib/interrupt.h
+.\objects\uartstdio.o: ..\tivaware\driverlib/rom.h
+.\objects\uartstdio.o: ..\tivaware\driverlib/rom_map.h
+.\objects\uartstdio.o: ..\tivaware\driverlib/sysctl.h
+.\objects\uartstdio.o: ..\tivaware\driverlib/uart.h
+.\objects\uartstdio.o: ..\tivaware\utils/uartstdio.h

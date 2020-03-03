@@ -1,0 +1,17 @@
+.\objects\main.o: main.c
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: ..\tivaware\inc/hw_memmap.h
+.\objects\main.o: ..\tivaware\inc/hw_types.h
+.\objects\main.o: ..\tivaware\inc/hw_can.h
+.\objects\main.o: ..\tivaware\inc/hw_ints.h
+.\objects\main.o: ..\tivaware\driverlib/can.h
+.\objects\main.o: ..\tivaware\driverlib/interrupt.h
+.\objects\main.o: ..\tivaware\driverlib/sysctl.h
+.\objects\main.o: ..\tivaware\driverlib/gpio.h
+.\objects\main.o: ..\tivaware\driverlib/uart.h
+.\objects\main.o: ..\tivaware\driverlib/pin_map.h
+.\objects\main.o: ..\tivaware\driverlib/adc.h
+.\objects\main.o: ..\tivaware\utils/uartstdio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

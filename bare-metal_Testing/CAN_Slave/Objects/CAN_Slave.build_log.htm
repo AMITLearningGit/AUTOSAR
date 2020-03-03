@@ -1,0 +1,142 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Yousef Diab, AMIT, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\youse\OneDrive\Desktop\AutoSAR Course\CAN_Slave\CAN_Slave.uvproj
+Project File Date:  02/28/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+..\tivaware\inc/hw_memmap.h(51): warning:  #47-D: incompatible redefinition of macro "WATCHDOG0_BASE"  (declared at line 1543 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WATCHDOG0_BASE          0x40000000  // Watchdog0
+..\tivaware\inc/hw_memmap.h(52): warning:  #47-D: incompatible redefinition of macro "WATCHDOG1_BASE"  (declared at line 1544 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WATCHDOG1_BASE          0x40001000  // Watchdog1
+..\tivaware\inc/hw_memmap.h(57): warning:  #47-D: incompatible redefinition of macro "SSI0_BASE"  (declared at line 1549 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define SSI0_BASE               0x40008000  // SSI0
+..\tivaware\inc/hw_memmap.h(58): warning:  #47-D: incompatible redefinition of macro "SSI1_BASE"  (declared at line 1550 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define SSI1_BASE               0x40009000  // SSI1
+..\tivaware\inc/hw_memmap.h(59): warning:  #47-D: incompatible redefinition of macro "SSI2_BASE"  (declared at line 1551 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define SSI2_BASE               0x4000A000  // SSI2
+..\tivaware\inc/hw_memmap.h(60): warning:  #47-D: incompatible redefinition of macro "SSI3_BASE"  (declared at line 1552 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define SSI3_BASE               0x4000B000  // SSI3
+..\tivaware\inc/hw_memmap.h(61): warning:  #47-D: incompatible redefinition of macro "UART0_BASE"  (declared at line 1553 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART0_BASE              0x4000C000  // UART0
+..\tivaware\inc/hw_memmap.h(62): warning:  #47-D: incompatible redefinition of macro "UART1_BASE"  (declared at line 1554 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART1_BASE              0x4000D000  // UART1
+..\tivaware\inc/hw_memmap.h(63): warning:  #47-D: incompatible redefinition of macro "UART2_BASE"  (declared at line 1555 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART2_BASE              0x4000E000  // UART2
+..\tivaware\inc/hw_memmap.h(64): warning:  #47-D: incompatible redefinition of macro "UART3_BASE"  (declared at line 1556 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART3_BASE              0x4000F000  // UART3
+..\tivaware\inc/hw_memmap.h(65): warning:  #47-D: incompatible redefinition of macro "UART4_BASE"  (declared at line 1557 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART4_BASE              0x40010000  // UART4
+..\tivaware\inc/hw_memmap.h(66): warning:  #47-D: incompatible redefinition of macro "UART5_BASE"  (declared at line 1558 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART5_BASE              0x40011000  // UART5
+..\tivaware\inc/hw_memmap.h(67): warning:  #47-D: incompatible redefinition of macro "UART6_BASE"  (declared at line 1559 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART6_BASE              0x40012000  // UART6
+..\tivaware\inc/hw_memmap.h(68): warning:  #47-D: incompatible redefinition of macro "UART7_BASE"  (declared at line 1560 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UART7_BASE              0x40013000  // UART7
+..\tivaware\inc/hw_memmap.h(69): warning:  #47-D: incompatible redefinition of macro "I2C0_BASE"  (declared at line 1561 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define I2C0_BASE               0x40020000  // I2C0
+..\tivaware\inc/hw_memmap.h(70): warning:  #47-D: incompatible redefinition of macro "I2C1_BASE"  (declared at line 1562 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define I2C1_BASE               0x40021000  // I2C1
+..\tivaware\inc/hw_memmap.h(71): warning:  #47-D: incompatible redefinition of macro "I2C2_BASE"  (declared at line 1563 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define I2C2_BASE               0x40022000  // I2C2
+..\tivaware\inc/hw_memmap.h(72): warning:  #47-D: incompatible redefinition of macro "I2C3_BASE"  (declared at line 1564 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define I2C3_BASE               0x40023000  // I2C3
+..\tivaware\inc/hw_memmap.h(77): warning:  #47-D: incompatible redefinition of macro "PWM0_BASE"  (declared at line 1567 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define PWM0_BASE               0x40028000  // Pulse Width Modulator (PWM)
+..\tivaware\inc/hw_memmap.h(78): warning:  #47-D: incompatible redefinition of macro "PWM1_BASE"  (declared at line 1568 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define PWM1_BASE               0x40029000  // Pulse Width Modulator (PWM)
+..\tivaware\inc/hw_memmap.h(79): warning:  #47-D: incompatible redefinition of macro "QEI0_BASE"  (declared at line 1569 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define QEI0_BASE               0x4002C000  // QEI0
+..\tivaware\inc/hw_memmap.h(80): warning:  #47-D: incompatible redefinition of macro "QEI1_BASE"  (declared at line 1570 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define QEI1_BASE               0x4002D000  // QEI1
+..\tivaware\inc/hw_memmap.h(81): warning:  #47-D: incompatible redefinition of macro "TIMER0_BASE"  (declared at line 1571 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define TIMER0_BASE             0x40030000  // Timer0
+..\tivaware\inc/hw_memmap.h(82): warning:  #47-D: incompatible redefinition of macro "TIMER1_BASE"  (declared at line 1572 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define TIMER1_BASE             0x40031000  // Timer1
+..\tivaware\inc/hw_memmap.h(83): warning:  #47-D: incompatible redefinition of macro "TIMER2_BASE"  (declared at line 1573 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define TIMER2_BASE             0x40032000  // Timer2
+..\tivaware\inc/hw_memmap.h(84): warning:  #47-D: incompatible redefinition of macro "TIMER3_BASE"  (declared at line 1574 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define TIMER3_BASE             0x40033000  // Timer3
+..\tivaware\inc/hw_memmap.h(85): warning:  #47-D: incompatible redefinition of macro "TIMER4_BASE"  (declared at line 1575 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define TIMER4_BASE             0x40034000  // Timer4
+..\tivaware\inc/hw_memmap.h(86): warning:  #47-D: incompatible redefinition of macro "TIMER5_BASE"  (declared at line 1576 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define TIMER5_BASE             0x40035000  // Timer5
+..\tivaware\inc/hw_memmap.h(87): warning:  #47-D: incompatible redefinition of macro "WTIMER0_BASE"  (declared at line 1577 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WTIMER0_BASE            0x40036000  // Wide Timer0
+..\tivaware\inc/hw_memmap.h(88): warning:  #47-D: incompatible redefinition of macro "WTIMER1_BASE"  (declared at line 1578 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WTIMER1_BASE            0x40037000  // Wide Timer1
+..\tivaware\inc/hw_memmap.h(89): warning:  #47-D: incompatible redefinition of macro "ADC0_BASE"  (declared at line 1579 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define ADC0_BASE               0x40038000  // ADC0
+..\tivaware\inc/hw_memmap.h(90): warning:  #47-D: incompatible redefinition of macro "ADC1_BASE"  (declared at line 1580 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define ADC1_BASE               0x40039000  // ADC1
+..\tivaware\inc/hw_memmap.h(91): warning:  #47-D: incompatible redefinition of macro "COMP_BASE"  (declared at line 1581 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define COMP_BASE               0x4003C000  // Analog comparators
+..\tivaware\inc/hw_memmap.h(93): warning:  #47-D: incompatible redefinition of macro "CAN0_BASE"  (declared at line 1582 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define CAN0_BASE               0x40040000  // CAN0
+..\tivaware\inc/hw_memmap.h(94): warning:  #47-D: incompatible redefinition of macro "CAN1_BASE"  (declared at line 1583 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define CAN1_BASE               0x40041000  // CAN1
+..\tivaware\inc/hw_memmap.h(95): warning:  #47-D: incompatible redefinition of macro "WTIMER2_BASE"  (declared at line 1584 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WTIMER2_BASE            0x4004C000  // Wide Timer2
+..\tivaware\inc/hw_memmap.h(96): warning:  #47-D: incompatible redefinition of macro "WTIMER3_BASE"  (declared at line 1585 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WTIMER3_BASE            0x4004D000  // Wide Timer3
+..\tivaware\inc/hw_memmap.h(97): warning:  #47-D: incompatible redefinition of macro "WTIMER4_BASE"  (declared at line 1586 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WTIMER4_BASE            0x4004E000  // Wide Timer4
+..\tivaware\inc/hw_memmap.h(98): warning:  #47-D: incompatible redefinition of macro "WTIMER5_BASE"  (declared at line 1587 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define WTIMER5_BASE            0x4004F000  // Wide Timer5
+..\tivaware\inc/hw_memmap.h(99): warning:  #47-D: incompatible redefinition of macro "USB0_BASE"  (declared at line 1588 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define USB0_BASE               0x40050000  // USB 0 Controller
+..\tivaware\inc/hw_memmap.h(121): warning:  #47-D: incompatible redefinition of macro "EEPROM_BASE"  (declared at line 1595 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define EEPROM_BASE             0x400AF000  // EEPROM memory
+..\tivaware\inc/hw_memmap.h(133): warning:  #47-D: incompatible redefinition of macro "SYSEXC_BASE"  (declared at line 1596 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define SYSEXC_BASE             0x400F9000  // System Exception Module
+..\tivaware\inc/hw_memmap.h(134): warning:  #47-D: incompatible redefinition of macro "HIB_BASE"  (declared at line 1597 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define HIB_BASE                0x400FC000  // Hibernation Module
+..\tivaware\inc/hw_memmap.h(135): warning:  #47-D: incompatible redefinition of macro "FLASH_CTRL_BASE"  (declared at line 1598 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define FLASH_CTRL_BASE         0x400FD000  // FLASH Controller
+..\tivaware\inc/hw_memmap.h(136): warning:  #47-D: incompatible redefinition of macro "SYSCTL_BASE"  (declared at line 1599 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define SYSCTL_BASE             0x400FE000  // System Control
+..\tivaware\inc/hw_memmap.h(137): warning:  #47-D: incompatible redefinition of macro "UDMA_BASE"  (declared at line 1600 of "C:\Keil_v5\ARM\INC\TI\TM4C123\TM4C123GH6PM.h")
+  #define UDMA_BASE               0x400FF000  // uDMA Controller
+..\tivaware\inc/hw_memmap.h(145): warning:  #47-D: incompatible redefinition of macro "ITM_BASE"  (declared at line 1392 of "C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h")
+  #define ITM_BASE                0xE0000000  // Instrumentation Trace Macrocell
+..\tivaware\inc/hw_memmap.h(146): warning:  #47-D: incompatible redefinition of macro "DWT_BASE"  (declared at line 1393 of "C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h")
+  #define DWT_BASE                0xE0001000  // Data Watchpoint and Trace
+..\tivaware\inc/hw_memmap.h(148): warning:  #47-D: incompatible redefinition of macro "NVIC_BASE"  (declared at line 1397 of "C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h")
+  #define NVIC_BASE               0xE000E000  // Nested Vectored Interrupt Ctrl
+CAN.h(23): warning:  #1295-D: Deprecated declaration CAN_Init - give arg types
+  void CAN_Init();
+CAN.h(24): warning:  #1-D: last line of file ends without a newline
+  void CANIntHandler(void);
+main.c(102): warning:  #111-D: statement is unreachable
+        return 0;
+main.c: 52 warnings, 0 errors
+linking...
+Program Size: Code=5596 RO-data=1528 RW-data=1644 ZI-data=364  
+".\Objects\CAN_Slave.axf" - 0 Error(s), 52 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
